@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/nandironproci.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/nandironproci.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/neuronsprite.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/neuronsprite.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/gretironproci2.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/gretironproci2.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/nandironproci2.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/nandironproci2.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/matyironproci.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/matyironproci.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/buildproci.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/buildproci.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/matyironproci2.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/matyironproci2.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/gretironproci.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/gretironproci.png"
+    },
+    {
+        "merged": "/home/bence/AndroidStudioProjects/NorbironTable1/app/build/intermediates/res/merged/debug/drawable-mdpi/pcb550i.png",
+        "source": "/home/bence/AndroidStudioProjects/NorbironTable1/app/src/main/res/drawable-mdpi/pcb550i.png"
+    }
+]
