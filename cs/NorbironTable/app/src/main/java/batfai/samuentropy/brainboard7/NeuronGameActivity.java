@@ -39,8 +39,16 @@
  */
 package batfai.samuentropy.brainboard7;
 
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.TextView;
+
+import static android.app.PendingIntent.getActivity;
 
 /**
  *
@@ -48,10 +56,42 @@ import android.widget.Button;
  */
 public class NeuronGameActivity extends android.app.Activity {
 
+
+
     @Override
     public void onCreate(android.os.Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+
+     /*   final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.cdialog);
+        dialog.setTitle(R.string.thedialogtitle);
+
+        TextView text = (TextView) dialog.findViewById(R.id.help_tv);
+        text.setText(R.string.dialogmessage);
+
+        Button dialogButton = (Button) dialog.findViewById(R.id.ok_bt);
+
+
+
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+        if(!NeuronDialogFragment.volt) {
+            NeuronDialogFragment.volt = true;
+            dialog.show();
+        }*/
+
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        boolean yourLocked = prefs.getBoolean("locked", false);
+        if(!NeuronDialogFragment.volt && !yourLocked) {
+          welcome();
+            NeuronDialogFragment.volt = true;
+        }
 
 final Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
@@ -62,4 +102,10 @@ final Button button = (Button) findViewById(R.id.button);
             }
     });
 }
+
+    public void welcome() {
+        NeuronDialogFragment newFragment = new NeuronDialogFragment();
+        newFragment.show(getFragmentManager(), "missiles");
+    }
+
 }

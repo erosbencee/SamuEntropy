@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Norbiron Table</string>
+    <string name="okgomb">Kezdjük!</string>
+    <string name="thedialogtitle">Üdvözlet Robotpszichológus!</string>
+    <string name="dialogmessage">Samu beizzításához helyezz el néhányat a neuronokat tartalmazó dobozokból! Ezeket a fenti \'+\' jel segítségével érheted el.\n\nTipp: Érints meg kétszer gyorsan a dobozt, ha kiszeretnéd törölni.</string>
+    <string name="dialog">unknown</string>
+    <string name="no_again">Ne jelenjen meg többször!</string>
     <color name="white">#FFFFFF</color>
 </resources>
