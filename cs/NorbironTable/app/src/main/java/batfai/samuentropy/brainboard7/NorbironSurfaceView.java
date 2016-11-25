@@ -266,6 +266,8 @@ public class NorbironSurfaceView extends android.view.SurfaceView implements Run
 
         }
 
+        intent.removeExtra("selectedNode");
+
         surfaceHolder = getHolder();
         surfaceHolder.addCallback(new SurfaceEvents(this));
 
